@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags for character set, viewport, and title -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header section with navigation and search functionality -->
+    <header class="navbar">
+      <div class="container">
+        <!-- Home button -->
+        <button id="home-page">Home</button>
+        <!-- Search box containing input field and search button -->
+        <div class="search-box">
+          <input type="text" id="search-input" placeholder="Search for a meal" />
+          <button id="search-btn">Search</button>
+        </div>
+        <!-- Button to view favorite items list -->
+        <button id="favourites-items-from-local-storage-btn">Favourite Items List</button>
+      </div>
+    </header>
+    <br />
+
+    <!-- Main content section displaying meals list -->
+    <div id="meal-items">
+      <div>
+        <!-- Heading for the list of meals -->
+        <h1>List of Meals</h1>
+        <!-- Unordered list to display the meals -->
+        <ul id="meals-list"></ul>
+      </div>
+    </div>
+
+    <!-- Script file for handling the functionality -->
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

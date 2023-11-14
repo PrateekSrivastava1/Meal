@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Document metadata -->
+    <meta charset="UTF-8" />
+    <!-- Title of the page -->
+    <title>Meal Details</title>
+    <!-- Link to an external stylesheet for styling -->
+    <link rel="stylesheet" href="./meal-details.css" />
+  </head>
+  <body>
+    <!-- Header section containing navigation buttons -->
+    <header class="navbar">
+      <div class="container">
+        <!-- Button to navigate back to the Home page -->
+        <button id="home-page">Home</button>
+        <!-- Button to view the Favourite Items List -->
+        <button id="favourites-items-from-local-storage-btn">Favourite Items List</button>
+        <!-- Button to add the current meal to the Favourite List -->
+        <button id="add-to-favourites-btn">Add to Favourite List</button>
+      </div>
+    </header>
+
+    <!-- Heading for the Meal Details section -->
+    <h1>Meal Details</h1>
+
+    <!-- Container to display meal details dynamically -->
+    <div id="meal-details-container"></div>
+
+    <!-- Script file for handling meal details functionality -->
+    <script type="module" src="./meal-details.js"></script>
+  </body>
+</html>
